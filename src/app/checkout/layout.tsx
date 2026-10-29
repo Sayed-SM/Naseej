@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; export const metadata:Metadata={title:"إتمام الطلب",description:"أدخل بيانات التوصيل وادفع نقدًا عند الاستلام."}; export default function CheckoutLayout({children}:{children:React.ReactNode}){return children;}

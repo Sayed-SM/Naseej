@@ -1,0 +1,3 @@
+import { ImageResponse } from "next/og";
+export const alt="نَسيج — ملابس تُلبَس كل يوم"; export const size={width:1200,height:630}; export const contentType="image/png";
+export default function OpenGraphImage(){return new ImageResponse(<div style={{display:"flex",width:"100%",height:"100%",alignItems:"center",justifyContent:"center",background:"#FBFAF6",color:"#15140F",fontSize:92,fontFamily:"serif",border:"24px solid #F1ECE2"}}><div style={{display:"flex",flexDirection:"column",alignItems:"center",gap:18}}><span>نَسيج</span><span style={{fontSize:28,letterSpacing:8}}>NASEEJ / DROP 01</span></div></div>,size);}

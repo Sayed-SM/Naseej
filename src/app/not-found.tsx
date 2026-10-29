@@ -1,0 +1,2 @@
+import Link from "next/link"; import { ProductGrid } from "@/components/store/product-grid"; import { products } from "@/lib/products";
+export default function NotFound(){return <main className="container-store section-pad min-h-[60vh]"><p className="meta">404</p><h1 className="page-title mt-2">الصفحة دي مش موجودة</h1><p className="mt-2 text-[var(--ink-soft)]">يمكن الرابط اتغير. نرجع للقطع الموجودة.</p><Link className="action-primary mt-5" href="/shop">روح للمتجر</Link><section className="mt-12"><ProductGrid items={products.slice(0,4)}/></section></main>}

@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; export const metadata:Metadata={title:"السلة",description:"راجع القطع والمقاسات وتكلفة الشحن قبل إتمام الطلب."}; export default function CartLayout({children}:{children:React.ReactNode}){return children;}

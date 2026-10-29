@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; export const metadata:Metadata={title:"تتبّع الطلب",description:"ابحث عن طلبك برقم الطلب ورقم الموبايل."}; export default function TrackLayout({children}:{children:React.ReactNode}){return children;}
